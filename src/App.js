@@ -1,5 +1,4 @@
 import React, {  Component } from "react";
-//import axios from "axios";
 import "./App.css";
 
 class App extends Component{
@@ -24,10 +23,10 @@ class App extends Component{
       { this.state.loading || !this.state.person ? (
           <div>loading...</div>
         ) : (
-          <div>
-            <div>Random Person from API...</div>
-            <div>Title: { this.state.person.name.title }</div>
-            <div>First: { this.state.person.name.first }</div>
+          <div className="person">
+            <p>Random Person from API</p>
+            <div >Title: { this.state.person.name.title }</div>
+            <div >First: { this.state.person.name.first }</div>
             <div>Last: { this.state.person.name.last }</div>
             <img src={ this.state.person.picture.large } />
           </div>

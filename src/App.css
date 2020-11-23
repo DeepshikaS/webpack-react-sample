@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  background-color: rgb(163, 193, 221);
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+.person p {
+  font-size: larger;
+  font-weight: bolder;
+  font-style: oblique;
+  color: black;
+}
+
+.person {
+  text-align: center;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
