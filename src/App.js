@@ -7,7 +7,6 @@ class App extends Component{
     person: null
   }
   async componentDidMount() {
-  
 
     const url = 'https://randomuser.me/api/';
     const response = await fetch(url);
@@ -24,7 +23,7 @@ class App extends Component{
           <div>loading...</div>
         ) : (
           <div className="person">
-            <p>Random Person from API</p>
+            <p >Random Person from API</p>
             <div >Title: { this.state.person.name.title }</div>
             <div >First: { this.state.person.name.first }</div>
             <div>Last: { this.state.person.name.last }</div>
